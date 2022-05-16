@@ -162,4 +162,3 @@ container path to ```/app``` so it should be like the following:
 - Filter the list of available products with some parameters
   - All parameters are optionals
   - The filter key is used to set a priority while filtering the products data
-# catalog-demo
