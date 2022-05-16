@@ -1,0 +1,15 @@
+fos_rest:
+  view:
+    view_response_listener:  true
+  format_listener:
+    enabled: true
+    rules:
+      - { path: '^/', priorities: [ 'json' ], fallback_format: 'json',  prefer_extension: false }
+  exception:
+    enabled: true
+    messages:
+      Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException: true
+      Symfony\Component\HttpKernel\Exception\BadRequestHttpException: true
+      Symfony\Component\HttpKernel\Exception\NotFoundHttpException: true
+      Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException: true
+      Symfony\Component\HttpKernel\Exception\HttpException: true

@@ -1,0 +1,43 @@
+name: frontend
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.6.3
+  dio: ^4.0.6
+  file_picker: ^4.5.1
+
+  another_xlider: ^1.0.1+2
+  group_button: ^5.0.1
+  skeleton_loader: ^2.0.0+4
+  sliding_up_panel: ^2.0.0+1
+  intl: any
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Proxima
+      fonts:
+        - asset: assets/fonts/Proxima_Nova_Regular.otf
+        - asset: assets/fonts/Proxima_Nova_Semibold.otf
+          weight: 600
+        - asset: assets/fonts/Proxima_Nova_Bold.otf
+          weight: 700

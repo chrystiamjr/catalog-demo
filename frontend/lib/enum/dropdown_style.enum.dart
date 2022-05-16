@@ -1,0 +1,1 @@
+enum DropdownStyle { horizontal, vertical }

@@ -1,0 +1,14 @@
+files.read:
+  path:       /files/read
+  controller: App\Controller\FileController::readFileData
+  methods:    GET|HEAD
+
+files.upload:
+  path:       /files/upload
+  controller: App\Controller\FileController::uploadFile
+  methods:    POST
+
+products.filter:
+  path:       /products/filter
+  controller: App\Controller\ProductController::filter
+  methods:    POST
