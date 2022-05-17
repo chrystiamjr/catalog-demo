@@ -15,7 +15,7 @@ The technologies that were used in this project were:
 - PHP: 7.3
 - Symfony: 5.4
 - Flutter: 3.0.0
-- Nginx: stable (alphine)
+- Nginx: stable (alpine)
 
 # How to run
 
